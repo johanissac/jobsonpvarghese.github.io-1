@@ -26,7 +26,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Francois+One|PT+Serif|Raleway" rel="stylesheet">
   </head>
-  <body>
+  
+  <body> 
+    <div id="overlay">
+      <div class="spinner"></div> 
+      </div>
+      
     <div class="box">
       <img src="media/jobson.jpg" alt="" class="box-img">
       <h1>Jobson P. Vaghese</h1>
@@ -42,5 +47,12 @@
       <a href="https://github.com/jobsonpvarghese" target="_blank" class="social-icon"><i class="fab fa-github-square"></i></a>
     </div>
     </div>
+    <script>
+                var overlay = document.getElementById("overlay");
+
+        window.addEventListener('load', function(){
+          overlay.style.display = 'none';
+        })
+    </script>
   </body>
 </html>
